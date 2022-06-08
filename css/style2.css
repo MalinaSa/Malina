@@ -30,13 +30,13 @@ Version: 1.0
 .sp{
 	width: 50%;
 	float: left;
-	margin: 150px 0 0 5%
+	margin: 100px 0 0 5%
 	
 }
 .dl{
 	width: 30%;
 	float: left;
-	margin: 250px 0 0 5%;
+	margin: 200px 0 0 5%;
 	text-align: center	
 }
 
@@ -821,7 +821,7 @@ button:focus {
 .mu-testimonials-area {
 	display: inline;
 	float: left;
-	padding: 150px 0 210px;
+	padding: 100px 0 160px;
 	width: 100%;
 }
 
