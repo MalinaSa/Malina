@@ -1,0 +1,573 @@
+/*通用样式*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: ΢���ź� ;    
+    box-sizing: border-box;
+    
+}
+
+.container-fluid{
+    padding: 0px !important;
+}
+
+body,ul,li,p,h1,h2,h3,h4,h5{
+    margin:0;
+    padding:0;
+    font-size:100%;
+}
+body{
+    font-family: 'Microsoft YaHei UI', 'Microsoft YaHei', SimSun, 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+    font-size: 14px;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+img{
+    border:0;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.center{
+    width: 100%;
+    margin: 0 auto 0;
+}
+/*content*/
+.content{
+    position: relative;
+    width: 103.9%;
+    height: 100%;
+    margin: 0 auto;
+}
+.l-pic-index{
+	/*display:none;*/
+    position: absolute;
+    z-index:2;
+    width:3.3%;
+    height:81%;
+    background: url("../images/222.jpg") no-repeat right 0/cover;
+}
+.r-pic-index{
+	/*display:none;*/
+    position: absolute;
+    z-index: 2;
+    width:96.1%;
+    height:81%;
+    background: url("../images/111.jpg") no-repeat left 0/cover;
+}
+.l-bg-index{
+    position: absolute;
+    width: 93.3%;
+    top: 6%;
+    left: 3.3%;
+    z-index: 1;
+    height: 69.6%;
+    background: url("../images/2.png") right 0/cover no-repeat;
+}
+
+body{
+    min-height: 100vh;
+}
+.wrapper{
+    width: 104%;
+    
+}
+
+.wrapper .carousel{
+    max-width: 100%;
+}
+
+.carousel .card{
+    font-size: 21px;
+    font-weight: 600;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    margin: 15px 0px 0 0;
+    box-shadow:none !important;
+    border: none !important;  
+}
+.carousel .card-0 {
+    
+    width: 96.2% !important;
+    height: 100%;
+    margin-top: 55px;
+    color: black
+    }
+.carousel .card-1 {
+
+    background-color:transparent;
+    width: 96.2% !important;
+    height: 100%;
+    margin-top: 55px;
+    color: black;
+    
+}
+.carousel .card-2{
+    background-color:transparent;
+    width:96.2% !important;; 
+    height: 597px;
+    margin-top: 55px;
+    
+}
+.carousel .card-3{
+    background-color:transparent;
+    width:96.2% !important;;
+    height: 597px;
+    margin-top: 55px;
+    color: black
+
+}
+.carousel .card-4{
+    background-color:transparent;
+    width:96.2% !important;; 
+    height: 597px;
+    margin-top: 55px;
+    color: black
+
+}
+.carousel .card-5{
+    background-color:transparent;
+    width:96.2%;
+    height: 597px;
+    margin-top: 55px;
+    color: black
+    
+}
+.gds div {
+    color: black;
+    font-size: 68px;
+    margin: 0 auto;
+    width: 100%
+    }
+.card-1 h2{
+    padding: 20px;
+    text-align: center;
+}
+.card-1 hr{
+    border: 2px solid white !important;
+    width: 5% !important;
+    margin: 0 auto !important;
+}
+.mg-top{margin-top: 1%;}
+.card-1 .bt1{
+    width: 100%;
+    height: 100%;
+}
+.card-1 .bt1 div{
+    width: 30%;
+    margin-left: 2.5%;
+    float: left;
+}
+.card-1 .bt1 div img{
+    margin: 0 auto;
+    width: 80%;
+    height: 80%;
+}
+.card-1 .bt1 div p{
+    text-align: center;
+    
+}
+.clear{clear: both;}
+.card-2 section h2{
+    text-align: center;
+    padding: 1%;
+    color: black
+}
+.card-2 hr{
+    border: 2px solid white!important;
+    width: 5%!important;
+    margin: 0 auto!important;
+}
+.card-2 a{
+    color:white;text-align: left;width: 18%;
+    float: left;text-decoration: none;margin-left: 5.5%;margin-top: 5px;
+    height: 100%}
+.card-2 h1{padding: 35px;font-size: 30px;}
+.card-2 a p{margin-top: 330px;padding-left: 35px;}
+
+.card-2 .player{
+    background: url(../images/11.jpg) no-repeat;
+    width: 100%;
+    float: left;
+    height: 490px;
+}
+.card-2 .Medals{
+    background: url(../images/22.jpg) no-repeat;
+    width: 100%;
+    float: left;    
+    height: 490px;
+    
+}
+.card-2 .Training{
+    background: url(../images/33.jpg) no-repeat;
+    width: 100%;
+    float: left ;    
+    height: 490px;
+}
+.card-2 .information{
+    background: url(../images/11.jpg) no-repeat;
+    width: 100%;
+    float: left;    
+    height: 490px;
+}
+.tp3{
+    padding: 20px
+}
+.bt4{
+    height: 100%;
+    width: 40%;
+    padding: 40px
+}
+.bt4 h1{
+    font-size: 100px;
+}
+.card-4 hr{
+    border: 2px solid white !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+.bt3 h2{
+    text-align: center;
+    padding: 10px
+}
+.dtp{
+    height: 380px
+}
+.bt3 img{
+    float: left;
+    margin: 0px 0 15px 30px;
+    
+}
+
+.sx{
+   float: left;
+    padding: 20px;
+    width: 55%;
+}
+.fd{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.bt3k{
+    width: 100%;
+    height: 80%;
+}
+.bt3 hr{
+    border: 2px solid white !important;
+    width: 5% !important;
+    margin: 0 auto !important;
+}
+.mg{
+    padding: 15px 25px;
+    text-align: center;
+}
+.bt5{height: 100%;width: 100%;}
+.owl-carousel{
+    width: 1000px
+}
+/**
+ * Owl Carousel v2.3.4
+ * Copyright 2013-2018 David Deutsch
+ * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
+ */
+/*
+ *  Owl Carousel - Core
+ */
+ .owl-carousel {
+    display: none;
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+    /* position relative and z-index fix webkit rendering fonts issue */
+    position: relative;
+    z-index: 1; }
+    .owl-carousel .owl-stage {
+      position: relative;
+      -ms-touch-action: pan-Y;
+      touch-action: manipulation;
+      -moz-backface-visibility: hidden;
+      /* fix firefox animation glitch */ }
+    .owl-carousel .owl-stage:after {
+      content: ".";
+      display: block;
+      clear: both;
+      visibility: hidden;
+      line-height: 0;
+      height: 0; }
+    .owl-carousel .owl-stage-outer {
+      position: relative;
+      overflow: hidden;
+      /* fix for flashing background */
+      -webkit-transform: translate3d(0px, 0px, 0px); }
+    .owl-carousel .owl-wrapper,
+    .owl-carousel .owl-item {
+      -webkit-backface-visibility: hidden;
+      -moz-backface-visibility: hidden;
+      -ms-backface-visibility: hidden;
+      -webkit-transform: translate3d(0, 0, 0);
+      -moz-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0); }
+    .owl-carousel .owl-item {
+      position: relative;
+      min-height: 1px;
+      float: left;
+      -webkit-backface-visibility: hidden;
+      -webkit-tap-highlight-color: transparent;
+      -webkit-touch-callout: none; }
+    .owl-carousel .owl-item img {
+      display: block;
+       }
+    .owl-carousel .owl-nav.disabled,
+    .owl-carousel .owl-dots.disabled {
+      display: none; }
+    .owl-carousel .owl-nav .owl-prev,
+    .owl-carousel .owl-nav .owl-next,
+    .owl-carousel .owl-dot {
+      cursor: pointer;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none; }
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel button.owl-dot {
+      background: none;
+      color: inherit;
+      border: none;
+      padding: 0 !important;
+      font: inherit; }
+    .owl-carousel.owl-loaded {
+      display: block; }
+    .owl-carousel.owl-loading {
+      opacity: 0;
+      display: block; }
+    .owl-carousel.owl-hidden {
+      opacity: 0; }
+    .owl-carousel.owl-refresh .owl-item {
+      visibility: hidden; }
+    .owl-carousel.owl-drag .owl-item {
+      -ms-touch-action: pan-y;
+          touch-action: pan-y;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none; }
+    .owl-carousel.owl-grab {
+      cursor: move;
+      cursor: grab; }
+    .owl-carousel.owl-rtl {
+      direction: rtl; }
+    .owl-carousel.owl-rtl .owl-item {
+      float: right; }
+  
+  /* No Js */
+  .no-js .owl-carousel {
+    display: block; }
+  
+  /*
+   *  Owl Carousel - Animate Plugin
+   */
+  .owl-carousel .animated {
+    animation-duration: 1000ms;
+    animation-fill-mode: both; }
+  
+  .owl-carousel .owl-animated-in {
+    z-index: 0; }
+  
+  .owl-carousel .owl-animated-out {
+    z-index: 1; }
+  
+  .owl-carousel .fadeOut {
+    animation-name: fadeOut; }
+  
+  @keyframes fadeOut {
+    0% {
+      opacity: 1; }
+    100% {
+      opacity: 0; } }
+  
+  /*
+   * 	Owl Carousel - Auto Height Plugin
+   */
+  .owl-height {
+    transition: height 500ms ease-in-out; }
+  
+  /*
+   * 	Owl Carousel - Lazy Load Plugin
+   */
+  .owl-carousel .owl-item {
+    /**
+              This is introduced due to a bug in IE11 where lazy loading combined with autoheight plugin causes a wrong
+              calculation of the height of the owl-item that breaks page layouts
+           */ }
+    .owl-carousel .owl-item .owl-lazy {
+      opacity: 0;
+      transition: opacity 400ms ease; }
+    .owl-carousel .owl-item .owl-lazy[src^=""], .owl-carousel .owl-item .owl-lazy:not([src]) {
+      max-height: 0; }
+    .owl-carousel .owl-item img.owl-lazy {
+      transform-style: preserve-3d; }
+  
+  /*
+   * 	Owl Carousel - Video Plugin
+   */
+  .owl-carousel .owl-video-wrapper {
+    position: relative;
+    height: 100%;
+    background: #000; }
+  
+  .owl-carousel .owl-video-play-icon {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    left: 50%;
+    top: 50%;
+    margin-left: -40px;
+    margin-top: -40px;
+    background: url("owl.video.play.png") no-repeat;
+    cursor: pointer;
+    z-index: 1;
+    -webkit-backface-visibility: hidden;
+    transition: transform 100ms ease; }
+  
+  .owl-carousel .owl-video-play-icon:hover {
+    -ms-transform: scale(1.3, 1.3);
+        transform: scale(1.3, 1.3); }
+  
+  .owl-carousel .owl-video-playing .owl-video-tn,
+  .owl-carousel .owl-video-playing .owl-video-play-icon {
+    display: none; }
+  
+  .owl-carousel .owl-video-tn {
+    opacity: 0;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: opacity 400ms ease; }
+  
+  .owl-carousel .owl-video-frame {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+    #timeLine{
+        width: 50%;
+        margin: 0 auto;
+        /*border:  solid 1px #434343;*/
+        /*background: rgba(500,500,500,0.9);*/
+        overflow: hidden;
+        color: black;
+    }
+    #yearList{
+        width: 100%;
+        list-style: none;
+        position: relative;
+        /*left: 457px;*/
+        margin-left: 457px;
+    }
+    #yearList:after,.container-li:after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    #yearList li{
+        float: left;
+        cursor: pointer;
+        text-align: center;
+        font-size: 21px;
+        padding: 10px 20px;
+    }
+    .year-dot{
+        width: 10px; height: 10px; border-radius: 5px;
+        background-color: #002f21;
+        margin: 10px auto;
+        display: block;
+    }
+    .dotted-line{
+        border-bottom: dashed 2px  #7b7d7b;
+        position: relative;
+        top: -26px;
+    }
+    #cList{
+        width: 100%;
+        position: relative;
+    }
+    #btnLeft{
+        width: 5%; height:25%;
+        display: inline-block;
+        position: absolute;
+        left: -1%;
+        top: 25%;
+        text-decoration: none;
+        color: #fff;
+        font-size: 30px;
+        text-align: center;
+        line-height: 95px;
+        background: rgba(0,0,0,0.3);
+    }
+    #btnRight{
+        width: 5%; height:25%;
+        display: inline-block;
+        position: absolute;
+        right: -1%;
+        top: 25%;
+        text-decoration: none;
+        color: #fff;
+        font-size: 30px;
+        text-align: center;
+        line-height: 95px;
+        background: rgba(0,0,0,0.3);
+    }
+    #btnLeft:hover,#btnRight:hover{
+        background: rgba(0,0,0,0.5);
+    }
+    #cUl{
+        width: 100%;
+        list-style: none;
+        height: 400px;
+        position: relative;
+        left: 0px;
+    }
+    #cUl li{
+        width: 100%;
+      position: absolute;  left: 0;
+    }
+    
+    .container-li{
+        width: 100%;
+        padding: 20px 50px;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        border: solid 1px #434343;
+    }
+    .c-li-left{
+        width: 40%;
+        float: left;
+    }
+    .c-li-right{
+        width: 60%;
+        float: right;
+    }
+
+    .c-li-right2{
+        width: 100%;
+   
+    }
+    .year-active{
+        color: red;
+    }
+    .year-active i{
+        background-color: red;
+    }
+    .col-lg-4 img{
+        padding: 20px
+    }
